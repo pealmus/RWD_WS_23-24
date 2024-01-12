@@ -13,7 +13,7 @@ body {
 header {
     font-family: 'adineue PRO', sans-serif;
     background-color: black;
-    height: 300px;
+    height: 100px;
    }
 
 .ueberschrift {
@@ -33,18 +33,18 @@ height: 50%
 }
 
 .section1 {
-    background-image: url('bilder/Hintergrund-dummy.png');
+    background-image: url('bilder/Hintergrund.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
-    height: 2000px;
-    font-size: 100px;
+    height: 600px;
+    font-size: 20px;
     
 }
 
 .h1s1 {
     padding-left: 80px;
-    padding-top: 300px;
+    padding-top: 200px;
 
 }
 
@@ -52,49 +52,59 @@ height: 50%
 
     color: white;
     font-size: 80%;
-    height: 150px;
-    width: 700px;
+    height: 60px;
+    width: 200px;
     background-color: black;
     box-shadow:15px ;
 
 }
 
+.pfeil {
+
+width: 20%;
+height: 20%;
+padding-left: 10px;
+
+}
+
 p {
     color: white;
-    font-size: 60px;
+    font-size: 20px;
+}
+
+.section2 {
+
+height: 600px;
+
+
 }
 
 h2 {
 
     color: white;
-    font-size: 80px;
+    font-size: 40px;
 
 }
 
 .h2s2 {
 
     padding-left: 80px;
-    padding-top: 300px;
-    padding-bottom: 500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 40%;
+    float: left;
 
 }
 
-.footer1 {
 
-text-align: center;
-background-color: gray;
-padding-top: 80px;
-padding-bottom: 80px;
-color: black;
-width: 100%;
-float: right;
+.section2bild {
+
+    width: 50%;
+    float: right;
 
 }
 
-footer {
-    background-color: grey;
-    
-}
+
 
 a {
 color: black;
@@ -102,49 +112,7 @@ text-decoration: none;
 
 }
 
-.news1 {
 
-    width: 70%;
-    float: left;
-
-}
-
-.news2 {
-
-    color: black;
-    font-size: 60px;
-    background-color: yellow;
-    
-
-}
-
-.news3 {
-
-    width: 30%;
-    float: right;
-    
-
-}
-
-.news4 {
-
-    color: white;
-    font-size: 250%;
-    height: 150px;
-    width: 700px;
-    background-color: black;
-    box-shadow:15px ;
-    align-items: center;
-
-
-}
-
-.newsAll {
-
-    background-color: yellow;
-    padding: 100px;
-
-}
 
 .icons {
 
@@ -160,12 +128,99 @@ text-decoration: none;
 
 }
 
-.projekt {
+.section3 {
 
-    width: 20%;
-    float: left;
+height: 600px;
+padding-bottom: 80px;
 
 }
+
+.h3s3 {
+    align-items: left;
+}
+
+.container {
+
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    width: 90%;
+    float: left;
+}
+
+
+
+.projekt {
+
+    flex: 3; 
+    margin: 50px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.s3b {
+
+    width: 150%;
+    height: 80%;
+
+}
+
+.s4b {
+
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding-left: 60px;
+}
+
+.s4text {
+
+    font-size: 80%;
+    width: 50%;
+    float: right;
+    padding-right: 60px;
+
+}
+
+.s4text2 {
+
+    font-size: 80%;
+    float: right;
+
+}
+
+.s4b2 {
+
+    width: 20%;
+    height: 20%;
+    float: right;
+
+}
+
+.boxs4 {
+
+    width: 100%;
+
+}
+
+.footer1 {
+
+    text-align: center;
+    background-color: gray;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: black;
+    width: 100%;
+    float: right;
+    
+    }
+    
+    footer {
+        background-color: grey;
+        
+    }
 
 
 
