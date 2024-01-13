@@ -14,18 +14,23 @@ header {
     font-family: 'adineue PRO', sans-serif;
     background-color: black;
     height: 100px;
+    align-items: center;
    }
+
+
+   .headerBild {
+    width: 25%;
+    height: 5%;
+    float: right;   
+    padding-right: 600px;
+
+}
 
 .ueberschrift {
     color: white;
 }
 
-.headerBild {
-    width: 20%;
-    height: 20%;
-    float: right;
-    padding-right: 40%;
-}
+
 
 .hintergrund {
 width: 100%;
@@ -52,7 +57,7 @@ height: 50%
 
     color: white;
     font-size: 80%;
-    height: 60px;
+    height: 50px;
     width: 200px;
     background-color: black;
     box-shadow:15px ;
@@ -113,21 +118,6 @@ text-decoration: none;
 }
 
 
-
-.icons {
-
-    height: 100px;
-    width: 100px;
-
-}
-
-.f1 {
-
-    width: 15%;
-    float: right;
-
-}
-
 .section3 {
 
 height: 600px;
@@ -167,6 +157,15 @@ padding-bottom: 80px;
 
 }
 
+.section4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
 .s4b {
 
     width: 20%;
@@ -177,8 +176,8 @@ padding-bottom: 80px;
 
 .s4text {
 
-    font-size: 80%;
-    width: 50%;
+    font-size: 90%;
+    width: 70%;
     float: right;
     padding-right: 60px;
 
@@ -186,8 +185,10 @@ padding-bottom: 80px;
 
 .s4text2 {
 
-    font-size: 80%;
-    float: right;
+    font-size: 90%;
+    float: left;
+    width: 70%;
+    padding-left: 60px;
 
 }
 
@@ -196,31 +197,219 @@ padding-bottom: 80px;
     width: 20%;
     height: 20%;
     float: right;
+    padding-right: 60px;
 
 }
 
 .boxs4 {
 
     width: 100%;
+    padding: 60px;
 
 }
+
+
+.newsletter1 {
+
+    background-color: rgb(237, 231, 52);
+    height: 150px;
+
+}
+
+.newsletter2 {
+
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    color: black;
+    font-size: 200%;
+
+}
+
+.b2 {
+
+    color: white;
+    font-size: 80%;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    box-shadow:15px ; 
+    float: left;  
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 25px;
+
+}
+
+.newsletterDiv {
+
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.f1s {
+
+    padding-top: 20px;
+
+}
+
+.f1 {
+
+    width: 15%;
+    float: right;
+    font-size: 100%;
+
+}
+
+.f1 p   {
+
+    font-size: 60%;
+
+}
+
 
 .footer1 {
 
     text-align: center;
     background-color: gray;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: black;
     width: 100%;
     float: right;
+    font-size: 70%;
     
     }
+
+    .icons1 {
+
+        height: 50px;
+        width: 50px;
+        background-color: white;
+    
+    }
+
+    .icons2 {
+
+        height: 50px;
+        width: 50px;
+    
+    }
+
+    .icons3 {
+
+        height: 50px;
+        width: 50px;
+        background-color: white;
+    
+    }
+
+
     
     footer {
         background-color: grey;
         
     }
+
+
+    @media only screen and (max-width: 600px) {
+
+        body {
+
+            width: 100%;
+
+        }
+
+        .headerBild {
+            width: 40%;
+            height: 20%;
+            float: left;
+            padding-left: 70px;
+            
+
+        }
+
+        header {
+            font-family: 'adineue PRO', sans-serif;
+            background-color: black;
+            height: 80px;
+            width: 150%;
+           }
+
+           .h1s1 {
+            padding-left: 20px;
+            padding-top: 150px;
+        
+        }
+
+
+        .section1 {
+            background-image: url('bilder/Hintergrund_mobil.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;    
+            height: 400px;
+            font-size: 10px;   
+            width: 100%;
+        }
+
+
+        .b1 {
+
+            color: white;
+            font-size: 80%;
+            height: 20px;
+            width: 100px;
+            background-color: black;
+            box-shadow:15px ;
+        
+        }
+
+
+        .f1s {
+
+            display: none;
+
+        }
+
+        .section2h2 {
+
+            font-size: 100%;
+
+        }
+
+        .section2 p {
+
+            font-size: 80%;
+           text-align: center;
+
+        }
+
+
+        .h2s2 {
+
+            
+            padding-top: 50px;
+            padding-bottom: 200px;
+            width: 60%;
+            text-align: center;
+        
+        }
+
+        .section2bild {
+
+            width: 50%;
+            align-items: center;
+            
+        }
+
+
+
+
+      }
 
 
 
