@@ -6,6 +6,7 @@ body {
 
     font-family: 'adihausDIN', sans-serif;
     color: white;
+    ;
     
 }
 
@@ -174,6 +175,18 @@ padding-bottom: 80px;
     padding-left: 60px;
 }
 
+.s4text3 {
+
+    display: none;
+
+}
+
+.s4b3 {
+
+    display: none;
+
+}
+
 .s4text {
 
     font-size: 90%;
@@ -205,6 +218,12 @@ padding-bottom: 80px;
 
     width: 100%;
     padding: 60px;
+
+}
+
+.mobil {
+
+    display: none;
 
 }
 
@@ -317,17 +336,65 @@ padding-bottom: 80px;
 
     @media only screen and (max-width: 600px) {
 
-        body {
+        
+        .headerBildDev {
+
+            width: 100%;
+            padding: 0;
+
+        }
+        
+        
+        .container {
 
             width: 100%;
 
         }
 
+
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        body {
+
+            width: 100%;
+            align-items: center;
+            overflow-x: hidden;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        header {
+
+            width: 100%;
+            overflow: hidden;
+
+        }
+
+        main {
+
+            width: 100%;
+            overflow: hidden;
+
+        }
+
+        footer {
+
+            width: 100%;
+            overflow: hidden;
+
+        }
+
         .headerBild {
-            width: 40%;
+            width: 100%;
             height: 20%;
-            float: left;
-            padding-left: 70px;
+            float: none;
+            padding-right: 0;
             
 
         }
@@ -336,7 +403,7 @@ padding-bottom: 80px;
             font-family: 'adineue PRO', sans-serif;
             background-color: black;
             height: 80px;
-            width: 150%;
+            width: 100%;
            }
 
            .h1s1 {
@@ -369,17 +436,23 @@ padding-bottom: 80px;
         }
 
 
-        .f1s {
 
-            display: none;
+        .section2 {
 
-        }
+            height: 400px;
+            width: 100%;
+            
+            
+            }
 
         .section2h2 {
 
             font-size: 100%;
 
         }
+
+
+
 
         .section2 p {
 
@@ -393,21 +466,146 @@ padding-bottom: 80px;
 
             
             padding-top: 50px;
-            padding-bottom: 200px;
             width: 60%;
             text-align: center;
+            padding-bottom: 40px;
         
         }
 
         .section2bild {
 
-            width: 50%;
+            width: 100%;
             align-items: center;
+            padding-bottom: 100px;
+
+            
             
         }
 
+        .section2bildDiv {
+
+            align-items: center;
+
+        }
+
+        .h3s3 {
+            align-items: center;
+            padding-top: 100px;
+        }
+
+        .section3 {
+
+            display: none;
+
+        }
+
+        .f1s {
+
+            display: none;
+
+        }
+
+        .f1 {
+
+            display: none;
+
+        }
 
 
+        .section4 {
+
+            display: none;
+
+        }
+
+        .mobil {
+
+            display: block;
+            width: 100%;
+
+        }
+
+        b {
+
+            text-align: center;
+
+        }
+
+        .s4textmobil {
+
+            
+            padding-left: 20px;
+            padding-right: 10px;
+
+        }
+
+        .s4bmobil {
+
+            width: 100%;
+
+        }
+
+        .newsletter1 {
+
+            width: 100%;
+
+        }
+
+        .f1s {
+
+            width: 100%;
+
+        }
+
+        .newsletter1 {
+
+            background-color: rgb(237, 231, 52);
+            height: 250px;
+            width: 100%;
+            align-items: center;
+        
+        }
+        
+        .newsletter2 {
+        
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            float: left;
+            color: black;
+            font-size: 200%;
+            text-align: center;
+            padding-left: 0;
+        
+        }
+        
+        .b2 {
+        
+            color: white;
+            font-size: 80%;
+            height: 50px;
+            width: 200px;
+            background-color: black;
+            box-shadow:15px ; 
+            float: center;  
+            align-items: center;
+            margin: 0;
+            margin-left: 20%;
+
+
+            
+        
+        }
+        
+        .newsletterDiv {
+        
+            justify-content: center;
+            padding-top: 30px;
+            text-align: center;
+            align-items: center;
+            float: left;
+        
+        }
 
       }
 
