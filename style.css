@@ -410,8 +410,8 @@ padding-bottom: 80px;
            }
 
            .h1s1 {
-            padding-left: 50px;
-            padding-top: 150px;
+            padding-left: 20px;
+            padding-top: 140px;
             
         
         }
@@ -849,7 +849,7 @@ padding-bottom: 80px;
         .newsletter1 {
 
             background-color: rgb(237, 231, 52);
-            height: 250px;
+            height: 200px;
             width: 100%;
             align-items: center;
         
@@ -857,7 +857,7 @@ padding-bottom: 80px;
         
         .newsletter2 {
         
-            width: 100%;
+            width: 70%;
             justify-content: center;
             align-items: center;
             float: left;
@@ -876,10 +876,10 @@ padding-bottom: 80px;
             width: 200px;
             background-color: black;
             box-shadow:15px ; 
-            float: center;  
+            float: right;  
             align-items: center;
             margin: 0;
-            margin-left: 20%;
+            margin-top: 5%;
 
 
             
