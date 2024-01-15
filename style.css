@@ -380,6 +380,7 @@ padding-bottom: 80px;
 
             width: 100%;
             overflow: hidden;
+            height: 100px;
 
         }
 
@@ -398,10 +399,11 @@ padding-bottom: 80px;
         }
 
         .headerBild {
-            width: 100%;
-            height: 20%;
+            width: 80%;
+            height: 10%;
             float: none;
-            padding-right: 0;
+            padding-right: 10px;
+            padding-left: 20px;
             
 
         }
