@@ -7,6 +7,7 @@ body {
 
     font-family: 'adihausDIN', sans-serif;
     color: white;
+    overflow-x: hidden;
     
     
 }
@@ -194,7 +195,7 @@ padding-bottom: 80px;
     font-size: 90%;
     width: 70%;
     float: right;
-    padding-right: 60px;
+    margin-right: 60px;
 
 }
 
@@ -212,7 +213,7 @@ padding-bottom: 80px;
     width: 20%;
     height: 20%;
     float: right;
-    padding-right: 60px;
+    margin-right: 60px;
 
 }
 
@@ -220,6 +221,8 @@ padding-bottom: 80px;
 
     width: 100%;
     padding: 60px;
+    margin-right: 60px;
+    padding-right: 0;
     
 
 }
